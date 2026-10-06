@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in Islet isn't working as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time. In Islet, *Settings → Report a bug* opens this form with your versions filled in.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be reproduced?
+      placeholder: |
+        1. Open the Calendar tab
+        2. Click Join
+        3. …
+  - type: input
+    id: version
+    attributes:
+      label: Islet version
+      description: Shown at the bottom of Settings.
+      placeholder: "2.0"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac model
+      placeholder: macOS 26.1, MacBook Pro 14-inch (M3)
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
+      description: Drag images or a screen recording in here. Islet hides itself from screenshots by default; turn off "Hide the island in screenshots" in Settings to capture it.

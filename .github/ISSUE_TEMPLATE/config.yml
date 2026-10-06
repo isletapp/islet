@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download Islet
+    url: https://tryislet.com
+    about: The latest version is always on the website.
+  - name: Email
+    url: https://tryislet.com
+    about: For anything private, write to hello@tryislet.com.
